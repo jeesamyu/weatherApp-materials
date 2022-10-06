@@ -1,0 +1,62 @@
+h1{
+    margin: 100px;
+}
+.mat-badge-content{
+    background-color: green;
+}
+button .mat-badge-content{
+    background-color: red;
+}
+button{
+    margin:20px ;
+}
+mat-progress-bar{
+    width: 50%;
+    margin-left: 100px;
+}
+.toolbar{
+    justify-content: space-between;
+}
+span{
+    padding-left: 20px;
+    cursor: pointer;
+    font-weight: 700;
+
+}
+mat-side-nav-container{
+    height: 100vh;
+}
+
+mat-sidenav{
+
+    width: 200px;
+    background-color: orange;
+}
+
+mat-sidenav-content{
+    padding: 20px;
+    background-color: lightcoral;
+}
+.menu{
+    margin: 300px;
+}
+
+mat-grid-tile{
+    background: lightsalmon;
+}
+
+.mat-expansion-panel-header-description{
+    justify-content: space-between;
+}
+mat-card{
+    margin: 100px;
+}
+
+.card-avator{
+    background-image: url(https://cdn.explorecams.com/storage/photos/LEFEikw0MR_1600.jpg);
+    background-size: cover;
+}
+
+mat-form-field{
+    margin-left: 50px;
+}

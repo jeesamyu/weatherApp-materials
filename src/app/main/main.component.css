@@ -1,0 +1,123 @@
+body{
+    background: linear-gradient(to right, #6b67d4 , #fac3e4);
+    height:100vh;
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container{
+    width:450px;
+    height:80vh;
+    box-shadow: 10px 10px 10px rgb(54, 51, 51);
+    border-radius: 20px;
+    display: flex;
+    margin:0;
+    padding: 0;
+    background-color: #6b67d4;
+    flex-direction: column;
+}
+
+.container .upper-part{
+    position:relative;
+    overflow: hidden;
+    display: flex;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width:100%;
+    height:50%;
+}
+
+.upper-part img{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display: flex;
+    position: relative;
+}
+
+.upper-part .upper-temp-details{
+    position:absolute;
+    color:rgb(0, 0, 0);
+    width: 100%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.upper-part .upper-temp-details p{
+    font-weight: 900;
+    font-size: 1.5rem;
+    margin: 0%;
+    
+}
+
+.upper-part .upper-temp-details p:nth-child(2){
+    font-size: 3rem;
+    font-weight: 1000;
+}
+
+.lower-part{
+    position: relative;
+    width: 100%;
+    height: 50%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.more-info .more{
+    font-size: 1.3rem;
+    padding:10px;
+    margin: 0%;
+    color: white;
+    font-weight: 800;
+}
+
+
+.lower-part .main-details{
+    flex: 1;
+    background-color: rgba(255, 255, 255, .3);
+    overflow: hidden;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.lower-part .main-details img{
+    width:40px;
+}
+
+.min-cold{
+    width: 50%;
+    display: flex;
+    height:50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.min-cold .detail-column{
+    display: flex;
+    flex-direction: column;
+}
+
+span{
+    color: white;
+    font-weight: 700;
+    text-align: center;
+}
+
+.min-cold p{
+    color: white;
+    padding: 10px 20px;
+    font-weight: 700;
+}
+
